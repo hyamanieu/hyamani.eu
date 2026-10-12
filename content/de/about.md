@@ -16,4 +16,4 @@ Treffen Sie mich auf Linkedin an:
 
 [![LinkedIn](/svg/icons/linkedin.svg)](https://www.linkedin.com/in/hyamanieu/)
 
-[1]: http://www.hyamani.eu/about/
+[1]: /en/about/

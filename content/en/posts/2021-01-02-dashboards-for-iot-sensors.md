@@ -20,7 +20,7 @@ tags:
   - zigbee
 
 ---
-_This is part 1. [Part 2 is there](http://www.hyamani.eu/2021/01/10/dashboards-for-iot-sensors-part-2-2/)._
+_This is part 1. [Part 2 is there](/2021/01/10/dashboards-for-iot-sensors-part-2-2/)._
 
 ## Introduction
 

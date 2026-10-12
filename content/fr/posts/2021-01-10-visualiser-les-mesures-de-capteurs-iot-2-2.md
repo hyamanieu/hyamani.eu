@@ -16,13 +16,13 @@ tags:
   - postgresql
 
 ---
-_Cet article est la suite de [la partie 1](http://www.hyamani.eu/fr/2021/01/02/visualiser-les-mesures-de-capteurs-iot/)._
+_Cet article est la suite de [la partie 1](/fr/2021/01/02/visualiser-les-mesures-de-capteurs-iot/)._
 
 ## Node-Red: Enregistrer les données
 
 ### Récupérer les messages MQTT…
 
-Comme introduit dans la partie précédente, nous allons enregistrer les données qui arrivent sur le broker en utilisant [Node-Red](http://www.hyamani.eu/fr/2021/01/02/visualiser-les-mesures-de-capteurs-iot/#Node-Red) sur un serveur [PostgreSQL](http://www.hyamani.eu/fr/2021/01/02/visualiser-les-mesures-de-capteurs-iot/#Base_de_donnees).
+Comme introduit dans la partie précédente, nous allons enregistrer les données qui arrivent sur le broker en utilisant [Node-Red](/fr/2021/01/02/visualiser-les-mesures-de-capteurs-iot/#node-red) sur un serveur [PostgreSQL](/fr/2021/01/02/visualiser-les-mesures-de-capteurs-iot/#base-de-données).
 
 Si l’installation a réussie, Node-Red devrait être accessible sur le port 1880 (par exemple `raspberrypi.local:1880`). Il vous faudra installer depuis celui-ci:
 
@@ -139,7 +139,7 @@ cela devrait vous ouvrir une page dans votre navigateur avec uniquement le derni
 
 ## Intégrer
 
-vous pouvez maintenant rajouter cette application au [service de votre Raspbrry Pi](http://www.hyamani.eu/fr/2021/01/02/visualiser-les-mesures-de-capteurs-iot/#En_faire_un_service). En effet, bokeh, la bibliothèque sur laquelle est basée Panel, permet de lancer plusieurs applications en même temps. Elle génère automatiquement une page d’accueil qui permet à l’utilisateur de choisir entre celles-ci. On va donc modifier la ligne `ExecStart` du fichier `home_on_bokeh.service` et rajouter l’application (la modification ajoute le fichier `plotting_hist_data.py`):
+vous pouvez maintenant rajouter cette application au [service de votre Raspbrry Pi](/fr/2021/01/02/visualiser-les-mesures-de-capteurs-iot/#en-faire-un-service). En effet, bokeh, la bibliothèque sur laquelle est basée Panel, permet de lancer plusieurs applications en même temps. Elle génère automatiquement une page d’accueil qui permet à l’utilisateur de choisir entre celles-ci. On va donc modifier la ligne `ExecStart` du fichier `home_on_bokeh.service` et rajouter l’application (la modification ajoute le fichier `plotting_hist_data.py`):
 
 ```
 sudo nano /etc/systemd/system/home_on_bokeh.service

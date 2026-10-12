@@ -26,7 +26,7 @@ defaultContentLanguageInSubdir = true   # English at /, French at /fr/, German a
         weight = 2
     [[languages.en.menus.main]]
         name = "Legal notice"
-        pageRef = "/legal"
+        pageRef = "/legal-notice"
         weight = 3
 
     # ---------- Français ----------
@@ -46,7 +46,7 @@ defaultContentLanguageInSubdir = true   # English at /, French at /fr/, German a
         weight = 2
     [[languages.fr.menus.main]]
         name = "Mentions légales"
-        pageRef = "/legal"
+        pageRef = "/legal-notice"
         weight = 3
 
     # ---------- Deutsch ----------
@@ -62,7 +62,7 @@ defaultContentLanguageInSubdir = true   # English at /, French at /fr/, German a
         weight = 1
     [[languages.de.menus.main]]
         name = "Rechtlicher Hinweis"
-        pageRef = "/legal"
+        pageRef = "/legal-notice"
         weight = 2
 [params]
     socialIcons = [{name = "linkedin", url = "https://www.linkedin.com/in/hyamanieu/"}]

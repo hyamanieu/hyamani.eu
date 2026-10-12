@@ -16,13 +16,13 @@ tags:
   - postgresql
 
 ---
-_This article is a follow-up of [part 1](http://www.hyamani.eu/2021/01/02/dashboards-for-iot-sensors/)._
+_This article is a follow-up of [part 1](/2021/01/02/dashboards-for-iot-sensors/)._
 
 ## Node-Red: record data
 
 ### Fetch MQTT messages…
 
-As introduced, we’re going to record data coming up on the broker by using [Node-Red](http://www.hyamani.eu/2021/01/02/dashboards-for-iot-sensors/#Node-Red) on a [PostgreSQL](http://www.hyamani.eu/2021/01/02/dashboards-for-iot-sensors/#Database) database.
+As introduced, we’re going to record data coming up on the broker by using [Node-Red](/2021/01/02/dashboards-for-iot-sensors/#node-red) on a [PostgreSQL](/2021/01/02/dashboards-for-iot-sensors/#database) database.
 
 If setting-up Node-Red is successfull, you can reach it on port 1880 (e.g. `raspberrypi.local:1880`). Then over its user interface, you need to set-up:
 
@@ -147,7 +147,7 @@ above command will open a webpage showing only the last element, called with the
 
 ## Implement
 
-You can now add this application [to your raspberry pi service](http://www.hyamani.eu/2021/01/02/dashboards-for-iot-sensors/#Make_it_a_service). Bokeh, the library behind Panel, let you serve several applications in parallel. It automatically generates a home webpage letting your users pick the application.
+You can now add this application [to your raspberry pi service](/2021/01/02/dashboards-for-iot-sensors/#make-it-a-service). Bokeh, the library behind Panel, let you serve several applications in parallel. It automatically generates a home webpage letting your users pick the application.
 
 Simply modify the `ExecStart` line from your `home_on_bokeh.service` file by adding the application (the modification adds `plotting_hist_data.py`):
 

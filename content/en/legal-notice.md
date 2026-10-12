@@ -36,4 +36,4 @@ Boîte 37\
 France
 ouvaton.coop
 
-[1]: http://www.hyamani.eu/fr/mentions-legales/
+[1]: /fr/legal-notice/

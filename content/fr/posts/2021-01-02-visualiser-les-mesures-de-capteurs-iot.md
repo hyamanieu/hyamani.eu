@@ -20,7 +20,7 @@ tags:
   - zigbee
 
 ---
-Ceci est la partie 1 d’une série de deux articles. [Voici le second](http://www.hyamani.eu/fr/2021/01/10/visualiser-les-mesures-de-capteurs-iot-2-2/).
+Ceci est la partie 1 d’une série de deux articles. [Voici le second](/fr/2021/01/10/visualiser-les-mesures-de-capteurs-iot-2-2/).
 
 ## Introduction
 
