@@ -1,11 +1,11 @@
 ---
 title: Dashboards for IoT sensors
 author: hyamanieu
-type: post
+translationKey: iot-sensors-part-1
 date: 2021-01-02T15:53:30+00:00
-excerpt: "How to record the measurements of sensors that send their data asynchronously, visualize their live status or analyze their past measurements? We'll do that with Node-Red, MQTT, and the python holoviz libraries."
-url: /2021/01/02/dashboards-for-iot-sensors/
-featured_image: /img/2020/12/image_live_dashboard.jpeg
+description: "How to record the measurements of sensors that send their data asynchronously, visualize their live status or analyze their past measurements? We'll do that with Node-Red, MQTT, and the python holoviz libraries."
+slug: dashboards-for-iot-sensors
+featureimage: /img/2020/12/image_live_dashboard.jpeg
 categories:
   - Panel
 tags:

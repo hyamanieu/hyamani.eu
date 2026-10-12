@@ -1,10 +1,9 @@
 ---
 title: Parallel (super) computing with scikit-learn
 author: hyamanieu
-type: post
 date: 2018-05-20T15:18:41+00:00
-url: /2018/05/20/parallel-super-computing-with-scikit-learn/
-featured_image: /img/2018/05/logo_AlsaCalcul.png
+slug: parallel-super-computing-with-scikit-learn
+featureimage: /img/2018/05/logo_AlsaCalcul.png
 categories:
   - Computing
 tags:

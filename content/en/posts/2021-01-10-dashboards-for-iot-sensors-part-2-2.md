@@ -1,11 +1,11 @@
 ---
 title: Dashboards for IoT sensors, part 2/2
 author: hyamanieu
-type: post
+translationKey: iot-sensors-part-2
 date: 2021-01-10T18:45:28+00:00
-excerpt: We record data coming on the broker by using Node-Red and PostgreSQL., then visualize them with the holoviz python packages.
-url: /2021/01/10/dashboards-for-iot-sensors-part-2-2/
-featured_image: /img/2021/01/image.png
+description: We record data coming on the broker by using Node-Red and PostgreSQL., then visualize them with the holoviz python packages.
+slug: dashboards-for-iot-sensors-part-2-2
+featureimage: /img/2021/01/image.png
 categories:
   - Panel
 tags:

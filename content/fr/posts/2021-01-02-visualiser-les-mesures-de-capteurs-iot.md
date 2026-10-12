@@ -1,11 +1,11 @@
 ---
 title: Visualiser les mesures de capteurs IoT
 author: hyamanieu
-type: post
+translationKey: iot-sensors-part-1
 date: 2021-01-02T15:54:15+00:00
-excerpt: 'Connecter des capteurs domotiques à un rpi via le protocole zigbee. Enregistrer les données avec Node-Red. Visualiser les données live et historiques en utilisant les bibliothèques holoviz: Panel et Holoviews.'
-url: /fr/2021/01/02/visualiser-les-mesures-de-capteurs-iot/
-featured_image: /img/2020/12/image_live_dashboard.jpeg
+description: 'Connecter des capteurs domotiques à un rpi via le protocole zigbee. Enregistrer les données avec Node-Red. Visualiser les données live et historiques en utilisant les bibliothèques holoviz: Panel et Holoviews.'
+slug: visualiser-les-mesures-de-capteurs-iot
+featureimage: /img/2020/12/image_live_dashboard.jpeg
 categories:
   - Panel
 tags:

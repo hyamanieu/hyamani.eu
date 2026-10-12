@@ -1,0 +1,49 @@
+{{/* Site override of Blowfish's translations switcher (site layouts win over the theme).
+     Lists every configured language. When the current page has no translation in a
+     language, that entry links to the default-language (English) equivalent, so
+     German falls back to the English post. Fallback entries that would point at the
+     page already being viewed are omitted. */}}
+{{ $defaultSite := hugo.Sites.Default }}
+{{ $defaultLang := $defaultSite.Language.Lang }}
+{{ $translations := dict }}
+{{ range .AllTranslations }}
+  {{ $translations = merge $translations (dict .Language.Lang .) }}
+{{ end }}
+{{ $fallbackPage := index $translations $defaultLang }}
+{{ $fallbackURL := "" }}
+{{ with $fallbackPage }}{{ $fallbackURL = .RelPermalink }}{{ end }}
+{{ $currentURL := .RelPermalink }}
+{{ $showFallback := and $fallbackURL (ne $fallbackURL $currentURL) }}
+{{ if or .IsTranslated $showFallback }}
+  <div class="translation nested-menu">
+    <button class="cursor-pointer flex items-center">
+      <span class="me-1">
+        {{ partial "icon.html" "language" }}
+      </span>
+      <span class="text-sm font-medium bf-icon-color-hover" title="{{ .Title }}">
+        {{- i18n "global.language" | markdownify -}}
+      </span>
+    </button>
+    <ul class="menuhide">
+      <li class="rounded-xl border border-neutral-200/80 bg-neutral/95 shadow-2xl shadow-neutral-900/20 dark:border-neutral-700/80 dark:bg-neutral-800/95 p-2 flex flex-col gap-1">
+        {{ range hugo.Sites }}
+          {{ $langCode := .Language.Lang }}
+          {{ $translated := index $translations $langCode }}
+          {{ if $translated }}
+            <a href="{{ $translated.RelPermalink }}" class="flex items-center bf-icon-color-hover px-3 py-1">
+              <span class="text-sm font-sm" title="{{ $translated.Title }}">
+                {{ .Language.Params.displayName | emojify }}
+              </span>
+            </a>
+          {{ else if $showFallback }}
+            <a href="{{ $fallbackURL }}" class="flex items-center bf-icon-color-hover px-3 py-1">
+              <span class="text-sm font-sm" title="{{ $fallbackPage.Title }}">
+                {{ .Language.Params.displayName | emojify }}<span class="text-xs opacity-40 ms-1">({{ $defaultSite.Language.Params.displayName | emojify }})</span>
+              </span>
+            </a>
+          {{ end }}
+        {{ end }}
+      </li>
+    </ul>
+  </div>
+{{ end }}

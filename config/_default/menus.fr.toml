@@ -1,0 +1,14 @@
+[[main]]
+  name = 'À propos'
+  pageRef = '/about'
+  weight = 1
+
+[[main]]
+  name = 'Articles'
+  pageRef = '/posts'
+  weight = 2
+
+[[main]]
+  name = 'Mentions légales'
+  pageRef = '/legal-notice'
+  weight = 3

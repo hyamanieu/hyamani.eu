@@ -1,11 +1,11 @@
 ---
 title: Visualiser les mesures de capteurs IoT, 2/2
 author: hyamanieu
-type: post
+translationKey: iot-sensors-part-2
 date: 2021-01-10T18:48:00+00:00
-excerpt: Nous allons enregistrer les données qui arrivent sur le broker en utilisant Node-Red sur un serveur PostgreSQL, puis les visualiser avec les packages Holoviz.
-url: /fr/2021/01/10/visualiser-les-mesures-de-capteurs-iot-2-2/
-featured_image: /img/2021/01/image.png
+description: Nous allons enregistrer les données qui arrivent sur le broker en utilisant Node-Red sur un serveur PostgreSQL, puis les visualiser avec les packages Holoviz.
+slug: visualiser-les-mesures-de-capteurs-iot-2-2
+featureimage: /img/2021/01/image.png
 categories:
   - Panel
 tags:

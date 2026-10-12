@@ -1,0 +1,9 @@
+[[main]]
+  name = 'Über mich'
+  pageRef = '/about'
+  weight = 1
+
+[[main]]
+  name = 'Rechtlicher Hinweis'
+  pageRef = '/legal-notice'
+  weight = 2

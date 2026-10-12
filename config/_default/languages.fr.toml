@@ -1,0 +1,20 @@
+disabled = false
+locale = 'fr'
+label = 'Français'
+weight = 2
+title = 'H.-Y. "Yanis" AMANIEU'
+contentDir = 'content/fr'
+
+[params]
+  displayName = 'FR'
+  isoCode = 'fr'
+  rtl = false
+  dateFormat = '2 January 2006'
+  description = "Blog personnel de H.-Y. AMANIEU sur la science des données, l'IoT et Python."
+
+  [params.author]
+    name = 'H.-Y. "Yanis" AMANIEU'
+    headline = 'Science des données, IoT et Python'
+    links = [
+      { linkedin = 'https://www.linkedin.com/in/hyamanieu/' }
+    ]
