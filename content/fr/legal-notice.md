@@ -31,9 +31,7 @@ Le directeur de publication est le consultant indépendant. Il porte toute la re
 
 ## Hébergement
 
-L’hébergeur est **Ouvaton**
-
-[![ouvaton.coop](https://i0.wp.com/ouvaton.coop/wp-content/uploads/2018/07/88x31rouge.png)](http://ouvaton.coop)\
+L’hébergeur est [ouvaton.coop](https://ouvaton.coop/)\
 Société Anonyme Coopérative à capital variable\
 Capital minimum : 19 057 euros\
 R.C.S. Paris B 438 168 718 (2001B11755)

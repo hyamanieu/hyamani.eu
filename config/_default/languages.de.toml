@@ -9,12 +9,12 @@ contentDir = 'content/de'
   displayName = 'DE'
   isoCode = 'de'
   rtl = false
-  dateFormat = '2 January 2006'
-  description = 'Persönlicher Blog von H.-Y. AMANIEU über Data Science, IoT und Python.'
+  dateFormat = '2006-01-02'
+  description = 'Persönlicher Blog von H.-Y. AMANIEU über Werten, Hobbies, Data Science, industrielle Data Platform Engineering, Industrie 4.0 und Python.'
 
   [params.author]
     name = 'H.-Y. "Yanis" AMANIEU'
-    headline = 'Data Science, IoT und Python'
+    headline = 'Freiheit, Unabhängigkeit, fundierte Gelegenheit'
     links = [
       { linkedin = 'https://www.linkedin.com/in/hyamanieu/' }
     ]

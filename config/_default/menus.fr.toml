@@ -8,7 +8,7 @@
   pageRef = '/posts'
   weight = 2
 
-[[main]]
+[[footer]]
   name = 'Mentions légales'
   pageRef = '/legal-notice'
   weight = 3

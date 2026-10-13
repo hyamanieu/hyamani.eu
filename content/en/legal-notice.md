@@ -23,7 +23,7 @@ The publisher is the consultant.
 
 ## Hosting
 
-The host is [![ouvaton.coop](https://i0.wp.com/ouvaton.coop/wp-content/uploads/2018/07/88x31rouge.png)](http://ouvaton.coop)\
+The host is [ouvaton.coop](https://ouvaton.coop/)\
 Société Anonyme Coopérative à capital variable\
 Capital minimum : 19 057 euros\
 R.C.S. Paris B 438 168 718 (2001B11755)

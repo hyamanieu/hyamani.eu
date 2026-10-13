@@ -23,12 +23,12 @@ Der Webmaster ist der Berater.
 
 ## Webhosting
 
-Der Host ist **Ouvaton**\
+Der Host ist [ouvaton.coop](https://ouvaton.coop)\
 Société Anonyme Coopérative à capital variable\
 Capital minimum : 19 057 euros\
 R.C.S. Paris B 438 168 718 (2001B11755)
 
-**Adresse du siège :**\
+**Geschäftssitz:**\
 Ouvaton Coop. SA\
 16 bis, rue d’Odessa\
 Boîte 37\
