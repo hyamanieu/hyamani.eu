@@ -1,7 +1,7 @@
 baseURL = 'https://hyamani.eu/'
 theme = 'blowfish'
 defaultContentLanguage = 'en'
-defaultContentLanguageInSubdir = true # English at /, French at /fr/, German at /de/
+defaultContentLanguageInSubdir = true # English at /en/, French at /fr/, German at /de/
 enableRobotsTXT = true
 summaryLength = 0
 enableEmoji = true

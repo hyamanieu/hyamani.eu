@@ -3,6 +3,7 @@ title: Legal notice
 author: hyamanieu
 type: page
 date: 2018-04-20T18:48:38+00:00
+showDate: false
 
 ---
 This website is subject to French law. The complete legal notice can be found on [the French version of this page][1].

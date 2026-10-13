@@ -3,6 +3,7 @@ title: Mentions légales
 author: hyamanieu
 type: page
 date: 2018-04-20T18:48:54+00:00
+showDate: false
 
 ---
 ## Hugues-Yanis Amanieu

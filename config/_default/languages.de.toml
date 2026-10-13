@@ -2,7 +2,7 @@ disabled = false
 locale = 'de'
 label = 'Deutsch'
 weight = 3
-title = 'H.-Y. "Yanis" AMANIEU'
+title = 'hyamani.eu'
 contentDir = 'content/de'
 
 [params]
@@ -16,5 +16,6 @@ contentDir = 'content/de'
     name = 'H.-Y. "Yanis" AMANIEU'
     headline = 'Freiheit, Unabhängigkeit, fundierte Gelegenheit'
     links = [
-      { linkedin = 'https://www.linkedin.com/in/hyamanieu/' }
+      { linkedin = 'https://www.linkedin.com/in/hyamanieu/' },
+      { github = 'https://www.github.com/hyamanieu/'}
     ]

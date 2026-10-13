@@ -3,6 +3,7 @@ title: Rechtliche Hinweise
 author: hyamanieu
 type: page
 date: 2018-04-20T18:49:38+00:00
+showDate: false
 
 ---
 Die Webseite ist dem französischen Recht unterworfen. Alle rechtlichen Hinweise befinden sich auf [der französischen Version dieser Seite][1].

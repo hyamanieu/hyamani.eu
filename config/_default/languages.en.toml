@@ -2,7 +2,7 @@ disabled = false
 locale = 'en'
 label = 'English'
 weight = 1
-title = 'H.-Y. "Yanis" AMANIEU'
+title = 'hyamani.eu'
 contentDir = 'content/en'
 
 [params]
@@ -17,5 +17,6 @@ contentDir = 'content/en'
     headline = 'Liberty, integrity, informed opportunity'
     image = 'img/2018/04/round_square_picture.png'
     links = [
-      { linkedin = 'https://www.linkedin.com/in/hyamanieu/' }
+      { linkedin = 'https://www.linkedin.com/in/hyamanieu/' },
+      { github = 'https://www.github.com/hyamanieu/'}
     ]
