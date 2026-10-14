@@ -1,0 +1,5 @@
+/* Site font overrides */
+:root {
+  --font-sans: "Josefin Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", "Noto Sans", Arial, sans-serif;
+}
