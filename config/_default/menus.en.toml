@@ -4,11 +4,16 @@
   weight = 1
 
 [[main]]
+  name = 'Expertise'
+  pageRef = '/expertise'
+  weight = 2
+
+[[main]]
   name = 'Posts'
   pageRef = '/posts'
-  weight = 2
+  weight = 3
 
 [[footer]]
   name = 'Legal notice'
   pageRef = '/legal-notice'
-  weight = 3
+  weight = 1

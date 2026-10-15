@@ -18,6 +18,7 @@ tags:
   - panel
   - postgres
   - zigbee
+series: ['iot-sensors']
 
 ---
 Ceci est la partie 1 d’une série de deux articles. [Voici le second](/fr/2021/01/10/visualiser-les-mesures-de-capteurs-iot-2-2/).

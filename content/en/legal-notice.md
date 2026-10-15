@@ -10,7 +10,7 @@ This website is subject to French law. The complete legal notice can be found on
 
 ## Hugues-Yanis Amanieu
 
-independent consultant
+A person, a parent, a biker, an independent consultant
 
 ## Contacts
 

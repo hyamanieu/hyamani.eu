@@ -18,7 +18,7 @@ tags:
   - panel
   - postgres
   - zigbee
-
+series: ['iot-sensors']
 ---
 _This is part 1. [Part 2 is there](/2021/01/10/dashboards-for-iot-sensors-part-2-2/)._
 

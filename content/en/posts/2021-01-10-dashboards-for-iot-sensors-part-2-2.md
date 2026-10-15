@@ -14,7 +14,7 @@ tags:
   - node-red
   - panel
   - postgresql
-
+series: ['iot-sensors']
 ---
 _This article is a follow-up of [part 1](/2021/01/02/dashboards-for-iot-sensors/)._
 

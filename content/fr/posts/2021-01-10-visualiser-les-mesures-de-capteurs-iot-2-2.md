@@ -14,6 +14,7 @@ tags:
   - node-red
   - panel
   - postgresql
+series: ['iot-sensors']
 
 ---
 _Cet article est la suite de [la partie 1](/fr/2021/01/02/visualiser-les-mesures-de-capteurs-iot/)._
