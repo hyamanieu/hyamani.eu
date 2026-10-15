@@ -4,6 +4,7 @@ author: hyamanieu
 date: 2018-05-20T15:18:41+00:00
 slug: parallel-super-computing-with-scikit-learn
 featureimage: /img/2018/05/logo_AlsaCalcul.png
+translationKey: 2018-05-20-parallel-super-computing-with-scikit-learn
 categories:
   - Computing
 tags:
