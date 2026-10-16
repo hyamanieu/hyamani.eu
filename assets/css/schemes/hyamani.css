@@ -12,26 +12,26 @@
   --color-neutral-900: 15, 15, 15;
 
   /* primary: #5A1D5E anchored at 600 */
-  --color-primary-50: 248, 239, 248;
-  --color-primary-100: 241, 225, 242;
-  --color-primary-200: 228, 198, 230;
-  --color-primary-300: 213, 150, 218;
-  --color-primary-400: 193, 80, 201;
-  --color-primary-500: 142, 46, 148;
-  --color-primary-600: 90, 29, 94;
-  --color-primary-700: 70, 23, 73;
-  --color-primary-800: 54, 17, 56;
-  --color-primary-900: 40, 13, 41;
+  --color-primary-50: 128, 71, 76;
+  --color-primary-100: 128, 71, 76;
+  --color-primary-200: 128, 71, 76;
+  --color-primary-300: 128, 71, 76;
+  --color-primary-400: 128, 71, 76;
+  --color-primary-500: 128, 71, 76;
+  --color-primary-600: 128, 71, 76;
+  --color-primary-700: 128, 71, 76;
+  --color-primary-800: 128, 71, 76;
+  --color-primary-900: 128, 71, 76;
 
   /* secondary: #215e1d anchored at 600 */
-  --color-secondary-50: 240, 248, 239;
-  --color-secondary-100: 226, 242, 225;
-  --color-secondary-200: 200, 230, 198;
-  --color-secondary-300: 154, 218, 150;
-  --color-secondary-400: 87, 201, 80;
-  --color-secondary-500: 52, 148, 46;
-  --color-secondary-600: 33, 94, 29;
-  --color-secondary-700: 26, 73, 23;
-  --color-secondary-800: 20, 56, 17;
-  --color-secondary-900: 15, 41, 13;
+  --color-secondary-50: 71, 128, 122;
+  --color-secondary-100: 71, 128, 122;
+  --color-secondary-200: 71, 128, 122;
+  --color-secondary-300: 71, 128, 122;
+  --color-secondary-400: 71, 128, 122;
+  --color-secondary-500: 71, 128, 122;
+  --color-secondary-600: 71, 128, 122;
+  --color-secondary-700: 71, 128, 122;
+  --color-secondary-800: 71, 128, 122;
+  --color-secondary-900: 71, 128, 122;
 }
