@@ -3,7 +3,22 @@
   pageRef = '/about'
   weight = 1
 
+[[main]]
+  name = 'Expertise'
+  pageRef = '/expertise'
+  weight = 2
+
+[[main]]
+  name = 'Artikel'
+  pageRef = '/posts'
+  weight = 3
+
+[[main]]
+  name = 'Kontakt'
+  pageRef = '/contact'
+  weight = 4
+
 [[footer]]
   name = 'Rechtlicher Hinweis'
   pageRef = '/legal-notice'
-  weight = 2
+  weight = 1
