@@ -116,8 +116,16 @@ My approach combines data engineering, software engineering, and industrial oper
 I firmly believe in sovereign architecture based on open source software.
 
 
-## Résumé
+## CV
 
+### Li-ion batteries and Data Science
+
+I have been working since 2010 in the Li-ion battery field. I have developed a particular interest in improving our interaction with the complex measurements produced in this field. From crystal properties during my PhD to systemic control as of now.
+
+Batteries are in fact the perfect candidates for data analytics: they are complex and involve a lot of unknown underlying mechanisms, yet experimental set-ups are well structured thence produce tidy data. The same tools can be developed for many domains, including the semi conductor industry, medical field, acoustics, etc.
+
+
+### Timeline
 {{< timeline >}}
 
 {{< timelineItem icon="compass-drafting-solid-full" header="Team Leader Data Science & Engineering" badge="2023 – Present" subheader="Leclanché" >}}

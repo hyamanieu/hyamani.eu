@@ -17,5 +17,6 @@ contentDir = 'content/fr'
     headline = 'Liberté, intégrité, base de données'
     links = [
       { linkedin = 'https://www.linkedin.com/in/hyamanieu/' },
-      { github = 'https://www.github.com/hyamanieu/'}
+      { github = 'https://www.github.com/hyamanieu/'},
+      { calendar-days-solid-full = 'https://nuage.amanieu.ovh/apps/appointments/pub/7aBv9QErDB1707Nr/form'}
     ]

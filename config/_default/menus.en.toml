@@ -13,6 +13,11 @@
   pageRef = '/posts'
   weight = 3
 
+[[main]]
+  name = 'Contact'
+  pageRef = '/contact'
+  weight = 4
+
 [[footer]]
   name = 'Legal notice'
   pageRef = '/legal-notice'

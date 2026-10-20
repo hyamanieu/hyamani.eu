@@ -19,14 +19,15 @@ Let's talk about your data
 
 Whether you have a quick question or want to discuss a project in depth, pick whichever suits you best.
 
-[Call to action]({{< email email="mailto:hello@test.com" text="text" subject="Reply to awesome article" >}})
 
 
-{{< alert icon="calendar-days-solid-full" iconColor="white">}}
+{{< alert icon="calendar-days-solid-full">}}
 **Prefer a real conversation?**
 
 {{< cta  url="https://nuage.amanieu.ovh/apps/appointments/pub/7aBv9QErDB1707Nr/form" label="Book an appointment!" style="outline" >}}
 {{< /alert >}}
+
+The form below does not load? [Open it directly](https://nuage.amanieu.ovh/apps/forms/embed/c376pwArE7DSipsHJG4kGoga) or {{< email email="mailto:hy@hyamani.eu" text="send me an e-mail." subject="Reaching out from hyamani.eu!" >}}
 
 
 <iframe
@@ -37,4 +38,3 @@ Whether you have a quick question or want to discuss a project in depth, pick wh
   loading="lazy"
 ></iframe>
 
-The form does not load? [Open it directly](https://nuage.amanieu.ovh/apps/forms/embed/c376pwArE7DSipsHJG4kGoga).

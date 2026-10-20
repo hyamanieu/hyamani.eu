@@ -15,7 +15,7 @@ enableCodeCopy = true
 enableStructuredBreadcrumbs = false
 # enableStyledScrollbar = true # disable to use native scrollbar style (defaults to true)
 
-replyByEmail = false
+replyByEmail = true
 
 # mainSections = ["section1", "section2"]
 # robots = ""

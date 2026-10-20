@@ -4,7 +4,7 @@ title: Home
 
 {{< feature-grid >}}
 
-{{< feature image="img/yanis_and_son_blurred.png" title="My values" url="/en/about/" label="About me" >}}
+{{< feature image="img/yanis_and_son_blurred.png" title="About me" url="/en/about/" label="About me" >}}
 Who I am, what I like, and what I stand for.
 {{< /feature >}}
 

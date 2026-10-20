@@ -7,8 +7,12 @@
 
 .nc-form {
   width: 100%;
-  border: 0;
+  border: 2px solid rgb(var(--color-secondary-100));
   height: 940px;
+  border-radius: var(--radius-md);
+}
+.dark .nc-form {
+  border-color: rgb(var(--color-secondary-900));
 }
 @media (max-width: 768px) {
   .nc-form { height: 1100px; }
