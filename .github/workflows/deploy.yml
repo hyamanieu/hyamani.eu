@@ -33,6 +33,16 @@ jobs:
       - name: Install lftp
         run: sudo apt-get update && sudo apt-get install -y lftp
 
+      # lftp connects at startup (URL is a command-line argument), before the
+      # script's "set sftp:auto-confirm" runs. Pre-trusting the host key here
+      # makes verification succeed deterministically. To pin the key instead
+      # of trusting whatever keyscan sees, replace this step with a literal
+      # "ssh-ed25519 AAAA..." line stored in a repository secret/variable.
+      - name: Trust Ouvaton SFTP host key
+        run: |
+          mkdir -p ~/.ssh
+          ssh-keyscan -p 115 ftp.ouvaton.coop >> ~/.ssh/known_hosts
+
       - name: Deploy to httpdocs/ via SFTP
         env:
           SFTP_USER: ${{ secrets.OUVATON_SFTP_USER }}
@@ -42,8 +52,7 @@ jobs:
             echo "::error::Secrets OUVATON_SFTP_USER and OUVATON_SFTP_PASSWORD must be set in the repository settings."
             exit 1
           fi
-          lftp -u "$SFTP_USER","$SFTP_PASS" -p 115 ftp.ouvaton.coop <<'EOF'
-          set sftp:auto-confirm yes
+          lftp -u "$SFTP_USER","$SFTP_PASS" -p 115 sftp://ftp.ouvaton.coop <<'EOF'
           mirror --reverse --delete --verbose public/ /httpdocs/
           bye
           EOF
