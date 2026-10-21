@@ -1,0 +1,49 @@
+name: Deploy to Ouvaton
+
+on:
+  push:
+    branches: [master]
+  workflow_dispatch:
+
+# Avoid two deployments running at the same time
+concurrency:
+  group: deploy-ouvaton
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    name: Build Hugo site and deploy via SFTP
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout (includes Blowfish submodule)
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+          fetch-depth: 0
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: '0.168.0'
+          extended: true
+
+      - name: Build site
+        run: hugo --minify
+
+      - name: Install lftp
+        run: sudo apt-get update && sudo apt-get install -y lftp
+
+      - name: Deploy to httpdocs/ via SFTP
+        env:
+          SFTP_USER: ${{ secrets.OUVATON_SFTP_USER }}
+          SFTP_PASS: ${{ secrets.OUVATON_SFTP_PASSWORD }}
+        run: |
+          if [ -z "$SFTP_USER" ] || [ -z "$SFTP_PASS" ]; then
+            echo "::error::Secrets OUVATON_SFTP_USER and OUVATON_SFTP_PASSWORD must be set in the repository settings."
+            exit 1
+          fi
+          lftp -u "$SFTP_USER","$SFTP_PASS" -p 115 ftp.ouvaton.coop <<'EOF'
+          set sftp:auto-confirm yes
+          mirror --reverse --only-newer --verbose public/ /httpdocs/
+          bye
+          EOF
