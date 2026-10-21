@@ -44,6 +44,6 @@ jobs:
           fi
           lftp -u "$SFTP_USER","$SFTP_PASS" -p 115 ftp.ouvaton.coop <<'EOF'
           set sftp:auto-confirm yes
-          mirror --reverse --only-newer --verbose public/ /httpdocs/
+          mirror --reverse --delete --verbose public/ /httpdocs/
           bye
           EOF
