@@ -3,15 +3,13 @@ title: "Fundierte Entscheidungsfindung für die Industrie"
 description: "Industrielles Datenplattform-Engineering: Architektur, Bewertung von Daten- und KI-Potenzialen sowie IT/OT-Datenengineering: von einem Praktiker für Daten und Batterieproduktion."
 summary: "Sauber strukturierte Daten sind die erste Säule jeder Entscheidung, ob Mensch oder KI."
 # layout: "simple"            # see note below
-featureimage: img/yanis_and_son.jpg
+featureimage: /img/202605_innovatrix_gigafactory_talk.jpg
 showDate: false
 showReadingTime: false
 showWordCount: false
 showAuthor: true
 showTableOfContents: true
 showBreadcrumbs: true
-showHero: true
-heroStyle: background
 sharingLinks: false
 cardView: true              # renders the child pages (services) as cards
 groupByYear: false          # otherwise the list groups by year
