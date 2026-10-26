@@ -14,7 +14,7 @@ tags:
   - scikit-learn
 
 ---
-Ich habe Zugang zum [Supercomputer der Universität Straßburg][1] erhalten — ideal für Machine-Learning-Herausforderungen, bei denen viele Modelle durchprobiert werden müssen.
+Ich habe Zugang zum [Supercomputer der Universität Straßburg][1] erhalten, ideal für Machine-Learning-Herausforderungen, bei denen viele Modelle durchprobiert werden müssen.
 
 Mit scikit-learn ist es relativ einfach, die mehreren Kerne eines PCs über die Option `n_jobs` zu nutzen. Paralleles Rechnen auf einem entfernten Rechner mit dem Warteschlangensystem Slurm ist dagegen nicht ganz so einfach.
 
@@ -307,7 +307,7 @@ Jetzt können Sie die Ergebnisse vergleichen, indem Sie die `*.log`-Dateien lese
 
 # Weiter geht's
 
-Zurzeit nutze ich den Alsacalcul-HPC, um eine Lösung für eine der ENS-Challenges zu finden — [schauen Sie vorbei][4]! Ich werde bald meine erste Lösung veröffentlichen, ebenso wie die Art, wie ich die Arbeit im Jupyter-Notebook mit Berechnungen auf dem HPC kombiniert habe.
+Zurzeit nutze ich den Alsacalcul-HPC, um eine Lösung für eine der ENS-Challenges zu finden: [schauen Sie vorbei][4]! Ich werde bald meine erste Lösung veröffentlichen, ebenso wie die Art, wie ich die Arbeit im Jupyter-Notebook mit Berechnungen auf dem HPC kombiniert habe.
 
 _Quellen, die ich verwendet habe:_
 – _https://services-numeriques.unistra.fr/les-services-aux-usagers/hpc.html_

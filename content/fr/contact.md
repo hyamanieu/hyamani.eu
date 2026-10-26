@@ -1,6 +1,6 @@
 ---
 title: Contact
-description: "Envoyez-moi un message rapide ou réservez un rendez-vous — formulaires hébergés sur mon instance Nextcloud auto-hébergée."
+description: "Envoyez-moi un message rapide ou réservez un rendez-vous."
 summary: "Deux façons de me joindre : un message rapide ou un rendez-vous planifié."
 type: page
 layout: simple

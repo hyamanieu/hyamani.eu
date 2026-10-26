@@ -2,16 +2,12 @@
 title: "Informed decision making for the Industry"
 description: "Industrial data platform engineering: architecture, AI opportunity assessment and IT/OT data engineering, by a data & battery-manufacturing practitioner."
 summary: "Clean, structured data is the first pillar of any decision, human or AI."
-# layout: "simple"            # see note below
-featureimage: img/yanis_and_son.jpg
+featureimage: /img/202605_innovatrix_gigafactory_talk.jpg
 showDate: false
 showReadingTime: false
 showWordCount: false
-showAuthor: true
 showTableOfContents: true
 showBreadcrumbs: true
-showHero: true
-heroStyle: background
 sharingLinks: false
 cardView: true              # renders the child pages (services) as cards
 groupByYear: false          # otherwise the list groups by year

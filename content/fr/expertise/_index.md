@@ -3,15 +3,13 @@ title: "Prise de décision éclairée pour l'industrie"
 description: "Ingénierie de plateformes de données industrielles : architecture, évaluation des opportunités IA et ingénierie de données IT/OT, par un praticien de la donnée et de la fabrication de batteries."
 summary: "Des données propres et structurées sont le premier pilier de toute décision, humaine ou IA."
 # layout: "simple"            # see note below
-featureimage: img/yanis_and_son.jpg
+featureimage: /img/202605_innovatrix_gigafactory_talk.jpg
 showDate: false
 showReadingTime: false
 showWordCount: false
 showAuthor: true
 showTableOfContents: true
 showBreadcrumbs: true
-showHero: true
-heroStyle: background
 sharingLinks: false
 cardView: true              # renders the child pages (services) as cards
 groupByYear: false          # otherwise the list groups by year

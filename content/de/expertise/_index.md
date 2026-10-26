@@ -1,17 +1,15 @@
 ---
 title: "Fundierte Entscheidungsfindung für die Industrie"
-description: "Industrielles Datenplattform-Engineering: Architektur, Bewertung von Daten- und KI-Potenzialen sowie IT/OT-Datenengineering — von einem Praktiker für Daten und Batterieproduktion."
+description: "Industrielles Datenplattform-Engineering: Architektur, Bewertung von Daten- und KI-Potenzialen sowie IT/OT-Datenengineering: von einem Praktiker für Daten und Batterieproduktion."
 summary: "Sauber strukturierte Daten sind die erste Säule jeder Entscheidung, ob Mensch oder KI."
 # layout: "simple"            # see note below
-featureimage: img/yanis_and_son.jpg
+featureimage: /img/202605_innovatrix_gigafactory_talk.jpg
 showDate: false
 showReadingTime: false
 showWordCount: false
 showAuthor: true
 showTableOfContents: true
 showBreadcrumbs: true
-showHero: true
-heroStyle: background
 sharingLinks: false
 cardView: true              # renders the child pages (services) as cards
 groupByYear: false          # otherwise the list groups by year
@@ -23,7 +21,7 @@ keywords: ["industrielle Datenplattform", "IT/OT", "Datenengineering", "Bewertun
 Industrielles Datenplattform-Engineering
 {{< /lead >}}
 
-Ob die Entscheidungsfindung durch eine KI oder durch einen Menschen erfolgt — die erste Säule jeder erfolgreichen Umsetzung sind saubere, strukturierte Daten.
+Ob die Entscheidungsfindung durch eine KI oder durch einen Menschen erfolgt, die erste Säule jeder erfolgreichen Umsetzung sind saubere, strukturierte Daten.
 
 <!--more-->
 {{< cta url="/de/contact/" label="Zusammenarbeiten!">}}
@@ -110,7 +108,7 @@ Ich helfe Organisationen, KI-Fähigkeiten zu integrieren, ohne von einem einzeln
 
 ### Mein Vorgehen
 
-Mein Vorgehen verbindet Datenengineering, Softwareengineering und Kenntnisse des Industrieanlagenbetriebs zu pragmatischen, wartbaren und geschäftsorientierten Lösungen. Ob Produktionsüberwachung, operative Exzellenz, Rückverfolgbarkeit, Qualitätsmanagement oder Reporting für die Geschäftsführung — ich helfe Organisationen, robuste Datenplattformen zu schaffen, die verlässliche Informationen liefern, wo und wann sie gebraucht werden.
+Mein Vorgehen verbindet Datenengineering, Softwareengineering und Kenntnisse des Industrieanlagenbetriebs zu pragmatischen, wartbaren und geschäftsorientierten Lösungen. Ob Produktionsüberwachung, operative Exzellenz, Rückverfolgbarkeit, Qualitätsmanagement oder Reporting für die Geschäftsführung: ich helfe Organisationen, robuste Datenplattformen zu schaffen, die verlässliche Informationen liefern, wo und wann sie gebraucht werden.
 
 
 Ich glaube fest an souveräne Architekturen auf Basis von Open-Source-Software.
@@ -129,7 +127,7 @@ Batterien sind in der Tat ideale Kandidaten für Datenanalysen: Sie sind komplex
 {{< timeline >}}
 
 {{< timelineItem icon="compass-drafting-solid-full" header="Teamleiter Data Science & Engineering" badge="2023 – Heute" subheader="Leclanché" >}}
-Führung eines Teams, das Produktions- und Qualitätsdaten in Entscheidungen verwandelt — durch Menschen oder automatisiert.
+Führung eines Teams, das Produktions- und Qualitätsdaten in Entscheidungen  durch Menschen oder automatisiert verwandelt.
 {{< /timelineItem >}}
 
 {{< timelineItem icon="magnifying-glass-chart-solid-full" header="Data Scientist, Produktionstechnik" badge="2019 – 2023" subheader="Leclanché" >}}

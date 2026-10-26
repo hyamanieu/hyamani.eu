@@ -34,7 +34,7 @@ Ein MQTT-Node ist bereits vorhanden. Indem Sie einen `MQTT IN`-Node auf den aktu
 
 Node-Red arbeitet mit _Scopes_. Es gibt drei:
 
-- **msg**: Dieser *Scope* verweist auf Objekte, die von allen miteinander verbundenen Nodes geteilt werden. Das Objekt, das uns hier interessiert, ist `msg.payload` — es enthält die Nachricht aus Ihrem Quell-`MQTT IN`-Node.
+- **msg**: Dieser *Scope* verweist auf Objekte, die von allen miteinander verbundenen Nodes geteilt werden. Das Objekt, das uns hier interessiert, ist `msg.payload`. Es enthält die Nachricht aus Ihrem Quell-`MQTT IN`-Node.
 - **flow**: Dieser *Scope* verweist auf alle Objekte, die Sie mit allen Nodes dieses Tabs teilen möchten, ob verbunden oder nicht.
 - **global**: Wie der Name sagt, wird dieser *Scope* von allen *Flow*s geteilt, also allen Tabs.
 
@@ -48,7 +48,7 @@ Wählen Sie als Output _parsed JSON object_, um ein Javascript-Objekt wie im Deb
 
 Wir finden unsere 6 Größen: Batteriestand, Luftfeuchtigkeit, Verbindungsqualität, Luftdruck, Temperatur und die Batteriespannung in mV.
 
-Unser Ziel ist hier, für jeden ähnlichen Sensor dasselbe Nachrichtenformat zu erhalten. Dann genügt ein einziger Flow für alle Sensoren: weniger Nodes bedeuten weniger Code — und damit weniger Bugs und weniger Wartung!
+Unser Ziel ist hier, für jeden ähnlichen Sensor dasselbe Nachrichtenformat zu erhalten. Dann genügt ein einziger Flow für alle Sensoren: weniger Nodes bedeuten weniger Code, und damit weniger Bugs und weniger Wartung!
 
 Die Verbindungsqualität wird von den Xiaomi-Sensoren nicht immer gesendet. Fehlt sie, müssen wir sie ergänzen. Wir können auch einen sprechenden Namen im `msg` hinzufügen, statt das lange `Topic` zu verwenden. Wir verwenden einen `switch`-Node, um zu erkennen, ob `linkquality` fehlt, und `change`-Nodes, um fehlende Elemente zu ergänzen.
 

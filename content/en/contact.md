@@ -1,6 +1,6 @@
 ---
 title: Contact
-description: "Send me a quick message or book an appointment — forms hosted on my self-hosted Nextcloud instance."
+description: "Send me a quick message or book an appointment."
 summary: "Two ways to reach me: a quick message or a booked appointment."
 type: page
 layout: simple
