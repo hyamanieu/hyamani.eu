@@ -24,7 +24,7 @@ _Dies ist Teil 1. [Teil 2 finden Sie hier](/de/2021/01/10/dashboards-fur-iot-sen
 
 ## Einführung
 
-Es ist zwei Jahre her, dass ich einen Artikel geschrieben habe. Es ist nie zu spät, wieder anzufangen — besonders für ein Thema, das die gesamte Kette von der physikalischen Messung bis zu ihrer Analyse auf einfache Weise abdeckt.
+Es ist zwei Jahre her, dass ich einen Artikel geschrieben habe. Es ist nie zu spät, wieder anzufangen. Besonders für ein Thema, das die gesamte Kette von der physikalischen Messung bis zu ihrer Analyse auf einfache Weise abdeckt.
 
 Wir sprechen also über ein Thema, das mir besonders wichtig erscheint: wie man die Messwerte von Sensoren aufzeichnet, die ihre Daten asynchron senden, ihren Live-Status visualisiert oder ihre früheren Messungen analysiert.
 
@@ -76,7 +76,7 @@ _TH_ steht für _**T**emperatur, **H**umidity (Feuchte)_.
 
 Ich habe mich für PostgreSQL entschieden, das sich einfach mit `sudo apt install postgresql postgresql-contrib` installieren lässt.
 
-Ich empfehle, einen Benutzer — nennen wir ihn _pi_ — mit Fernzugriff auf eine Datenbank namens _sensors_ anzulegen. Ich habe ein Schema _th_ hinzugefügt, in dem automatisch eine Tabelle pro Sensor angelegt wird. Darauf kommen wir im Abschnitt zu **Node-Red** zurück.
+Ich empfehle, einen Benutzer, nennen wir ihn _pi_, mit Fernzugriff auf eine Datenbank namens _sensors_ anzulegen. Ich habe ein Schema _th_ hinzugefügt, in dem automatisch eine Tabelle pro Sensor angelegt wird. Darauf kommen wir im Abschnitt zu **Node-Red** zurück.
 
 ### Node-Red
 
@@ -92,7 +92,7 @@ Dann:
 - `pip3 install holoviews panel hvplot` für das Dashboard
 - `pip3 install sqlalchemy psycopg2` für den Zugriff auf die Datenbank.
 
-Auf Ihrem eigenen Rechner empfehle ich dringend, für die Installation die virtuelle Umgebung von [conda][1] zu verwenden. Sie können auch Jupyter Notebook nutzen. Eine der netten Funktionen von Panel ist die Live-Bearbeitbarkeit — Sie können das Notebook als Quellcode Ihrer Anwendung verwenden.
+Auf Ihrem eigenen Rechner empfehle ich dringend, für die Installation die virtuelle Umgebung von [conda][1] zu verwenden. Sie können auch Jupyter Notebook nutzen. Eine der netten Funktionen von Panel ist die Live-Bearbeitbarkeit: Sie können das Notebook als Quellcode Ihrer Anwendung verwenden.
 
 ## Live-Daten visualisieren
 
@@ -121,7 +121,7 @@ Wenn Sie es wie eine normale HTTP-Website im lokalen Netzwerk (auf Port 80) erre
 sudo setcap 'cap_net_bind_service=+ep' /usr/bin/python3.7
 ```
 
-> Beachten Sie, dass **alle** Python-3.7-Anwendungen Zugriff auf Ports unter 1024 erhalten — was als Sicherheitsproblem gewertet werden kann.
+> Beachten Sie, dass **alle** Python-3.7-Anwendungen Zugriff auf Ports unter 1024 erhalten, was als Sicherheitsproblem gewertet werden kann.
 
 Meine [vollständige Anwendung finden Sie auf GitHub unter diesem Link.](https://github.com/hyamanieu/examples_sensor_data_to_Panel_dashboard/blob/main/plotting_live_data.ipynb) Sie müssen sie natürlich an Ihre Konfiguration anpassen!
 
@@ -167,7 +167,7 @@ Diese Datei ist unter `/etc/systemd/system/home_on_bokeh.service.d` erreichbar.
 
 > Beachten Sie die Variable `BOKEH_ALLOW_WS_ORIGIN`: Ohne sie ist Ihre Anwendung nicht erreichbar! Ersetzen Sie die Adresse hier durch Ihre echte Adresse.
 
-Wenn Sie verhindern möchten, dass jemand den Inhalt (mit den Passwörtern!) liest, reichen geänderte Zugriffsrechte nicht aus — siehe diese [*server fault*-Antwort](https://serverfault.com/a/910655). Jetzt können Sie den Dienst starten:
+Wenn Sie verhindern möchten, dass jemand den Inhalt (mit den Passwörtern!) liest, reichen geänderte Zugriffsrechte nicht aus (siehe diese [*server fault*-Antwort](https://serverfault.com/a/910655)). Jetzt können Sie den Dienst starten:
 
 ```
 >> sudo systemctl start home_on_bokeh

@@ -9,7 +9,7 @@ tags: ["service"]
 Viele industrielle Datenprojekte beginnen mit ERP-, Reporting- oder Business-Intelligence-Initiativen. Im Projektverlauf werden operative Daten, Produktionssysteme und industrielle Randbedingungen häufig zu kritischen Erfolgsfaktoren.
 <!--more-->
 
-Diese Leistung bietet praktische Unterstützung im Datenengineering während der Umsetzungs- und Auslieferungsphasen — mit Fokus auf Produktionsumgebungen und industrielle Datenquellen.
+Diese Leistung bietet praktische Unterstützung im Datenengineering während der Umsetzungs- und Auslieferungsphasen mit Fokus auf Produktionsumgebungen und industrielle Datenquellen.
 
 Typische Aktivitäten umfassen:
 

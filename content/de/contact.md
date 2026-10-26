@@ -1,6 +1,6 @@
 ---
 title: Kontakt
-description: "Schicken Sie mir eine kurze Nachricht oder vereinbaren Sie einen Termin — Formulare auf meiner selbst gehosteten Nextcloud-Instanz."
+description: "Schicken Sie mir eine kurze Nachricht oder vereinbaren Sie einen Termin."
 summary: "Zwei Wege, mich zu erreichen: eine kurze Nachricht oder ein vereinbarter Termin."
 type: page
 layout: simple
@@ -17,7 +17,7 @@ sharingLinks: false
 Sprechen wir über Ihre Daten
 {{< /lead >}}
 
-Ob Sie nur eine kurze Frage haben oder ein Projekt vertiefen möchten — wählen Sie, was Ihnen am besten passt.
+Ob Sie nur eine kurze Frage haben oder ein Projekt vertiefen möchten: wählen Sie, was Ihnen am besten passt.
 
 
 
