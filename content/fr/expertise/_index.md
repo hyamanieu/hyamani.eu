@@ -108,10 +108,13 @@ J'aide les organisations à intégrer des capacités d'IA sans dépendre d'un se
 
 ### Ma démarche
 
-Ma démarche combine ingénierie de données, génie logiciel et connaissance des opérations industrielles pour livrer des solutions pragmatiques, maintenables et orientées métier. Que l'objectif soit le suivi de production, l'excellence opérationnelle, la traçabilité, la gestion de la qualité ou le reporting pour la direction, j'aide les organisations à créer des plateformes de données robustes qui fournissent une information fiable, au bon endroit et au bon moment.
+Ma démarche combine ingénierie de données, génie logiciel et connaissance des opérations industrielles pour livrer des solutions **pragmatiques**, **maintenables** et **orientées métier**.
 
+Je pense que la numérisation industrielle doit reposer sur des architectures ouvertes, modulaires et interopérables, en utilisant **des logiciels open source comme éléments de base réutilisables** plutôt que de s'appuyer sur des solutions « tout-en-un ».
 
-Je crois fermement aux architectures souveraines fondées sur le logiciel libre.
+Chaque site de production a ses propres exigences, mais bon nombre des défis sous-jacents sont communs à tous les secteurs. En s'appuyant sur des technologies ouvertes et des composants réutilisables, les industriels peuvent combiner des solutions éprouvées, intégrer des systèmes provenant de différents fournisseurs et conserver la flexibilité nécessaire pour faire évoluer leur infrastructure numérique au fil du temps.
+
+**[OPC-UA](https://fr.wikipedia.org/wiki/Open_Platform_Communications) est un exemple éloquent de ce principe mis en pratique :** son approche ouverte et normalisée de l'échange de données industrielles permet l'interopérabilité entre les équipements et les logiciels de différents fournisseurs.
 
 
 ## Parcours

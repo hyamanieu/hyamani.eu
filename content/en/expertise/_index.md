@@ -106,10 +106,13 @@ I help organizations integrate AI capabilities without becoming dependent on a s
 
 ### My Approach
 
-My approach combines data engineering, software engineering, and industrial operations knowledge to deliver pragmatic, maintainable, and business-focused solutions. Whether the objective is production monitoring, operational excellence, traceability, quality management, or executive reporting, I help organizations create robust data platforms that provide trusted information where and when it is needed.
+My approach combines data engineering, software engineering, and industrial operations knowledge to deliver **pragmatic**, **maintainable**, and **business-focused** solutions.
 
+I believe industrial digitalization should be built on open, modular and interoperable architectures, using **open-source software as reusable building blocks** rather than relying on one-size-fits-all solutions.
 
-I firmly believe in sovereign architecture based on open source software.
+Every manufacturing plant has its own requirements, but many of the underlying challenges are shared across industries. By building on open technologies and reusable components, manufacturers can combine proven solutions, integrate systems from different vendors, and retain the flexibility to evolve their digital infrastructure over time.
+
+**[OPC-UA](https://en.wikipedia.org/wiki/OPC_Unified_Architecture) is a compelling example of this principle in action:** its open, standardized approach to industrial data exchange enables interoperability across equipment and software from different vendors.
 
 
 ## CV

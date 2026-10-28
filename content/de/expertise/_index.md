@@ -108,10 +108,13 @@ Ich helfe Organisationen, KI-Fähigkeiten zu integrieren, ohne von einem einzeln
 
 ### Mein Vorgehen
 
-Mein Vorgehen verbindet Datenengineering, Softwareengineering und Kenntnisse des Industrieanlagenbetriebs zu pragmatischen, wartbaren und geschäftsorientierten Lösungen. Ob Produktionsüberwachung, operative Exzellenz, Rückverfolgbarkeit, Qualitätsmanagement oder Reporting für die Geschäftsführung: ich helfe Organisationen, robuste Datenplattformen zu schaffen, die verlässliche Informationen liefern, wo und wann sie gebraucht werden.
+Mein Vorgehen verbindet Datenengineering, Softwareengineering und Kenntnisse des Industrieanlagenbetriebs zu pragmatischen, wartbaren und geschäftsorientierten Lösungen.
 
+Ich bin der Meinung, dass die industrielle Digitalisierung auf offenen, modularen und interoperablen Architekturen basieren sollte, wobei **Open-Source-Software als wiederverwendbare Bausteine** zum Einsatz kommen sollte, anstatt sich auf Einheitslösungen zu verlassen.
 
-Ich glaube fest an souveräne Architekturen auf Basis von Open-Source-Software.
+Jede Produktionsstätte hat ihre eigenen Anforderungen, doch viele der zugrunde liegenden Herausforderungen sind branchenübergreifend gleich. Durch den Einsatz offener Technologien und wiederverwendbarer Komponenten können Hersteller bewährte Lösungen kombinieren, Systeme verschiedener Anbieter integrieren und sich die Flexibilität bewahren, ihre digitale Infrastruktur im Laufe der Zeit weiterzuentwickeln.
+
+**[OPC-UA](https://de.wikipedia.org/wiki/OPC_Unified_Architecture) ist ein eindrucksvolles Beispiel für die praktische Umsetzung dieses Prinzips:** Sein offener, standardisierter Ansatz für den industriellen Datenaustausch ermöglicht die Interoperabilität zwischen Geräten und Software verschiedener Hersteller.
 
 
 ## Werdegang
