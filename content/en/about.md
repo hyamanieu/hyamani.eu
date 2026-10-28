@@ -24,4 +24,4 @@ You will not find deep philosophical text in here, but to sum it up
 
 The topics which occupy most of my brain 🧠 are our relationship with **identity** ; our relationship with **knowledge** (or lack thereof) ; and **power dynamics**.
 
-The former lead me to being particularly interested in languages  {{< sidenote text="although I am pretty bad at it, if I speak three languages it is only because it was a necessity, and after working for German companies for more than a decade, I still feel behind what my level should be." >}}
+The former lead me to being particularly interested in languages {{< sidenote text="although I am pretty bad at it, if I speak three languages it is only because it was a necessity, and after working for German companies for more than a decade, I still feel behind what my level should be." >}}
