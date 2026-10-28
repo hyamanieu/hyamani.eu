@@ -2,6 +2,8 @@
 title: Évaluation des opportunités en données industrielles et IA
 type: service
 showDate: false
+showHero: true
+heroStyle: background
 tags: ["service"]
 ---
 De nombreuses organisations reconnaissent le potentiel des données et de l'intelligence artificielle, mais n'ont pas une vision claire du point de départ, des cas d'usage à privilégier ni des fondations nécessaires pour réussir.

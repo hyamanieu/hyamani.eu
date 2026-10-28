@@ -2,6 +2,8 @@
 title: Bewertung von Potenzialen für industrielle Daten und KI
 type: service
 showDate: false
+showHero: true
+heroStyle: background
 tags: ["service"]
 ---
 Viele Organisationen erkennen das Potenzial von Daten und künstlicher Intelligenz, wissen aber nicht, wo sie anfangen sollen, welche Anwendungsfälle Vorrang haben oder welche Grundlagen für den Erfolg nötig sind.
