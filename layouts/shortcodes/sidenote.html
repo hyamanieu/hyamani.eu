@@ -1,0 +1,66 @@
+{{- $text := .Get "text" | default (.Get 0) -}}
+{{- $colorstyle := .Get "colorstyle" | default "primary" -}}
+{{- if not (in (slice "neutral" "primary" "secondary") $colorstyle) -}}
+  {{- $colorstyle = "primary" -}}
+{{- end -}}
+{{- $color := .Get "color" -}}
+{{- with $color -}}
+  {{- if not (findRE `^#(?:[0-9a-fA-F]{3}|[0-9a-fA-F]{6}|[0-9a-fA-F]{8})$` .) -}}
+    {{- $color = "" -}}
+  {{- end -}}
+{{- end -}}
+{{- if $color -}}
+  <span class="sidenote sidenote-{{ $colorstyle }}" style="--sn-color: {{ $color }};">
+{{- else -}}
+  <span class="sidenote sidenote-{{ $colorstyle }}">
+{{- end -}}
+  <button
+    type="button"
+    class="sidenote-btn"
+    aria-expanded="false"
+    aria-label="Toggle sidenote"
+    onclick="(function(b){var t=b.closest('.sidenote');document.querySelectorAll('.sidenote.open').forEach(function(s){if(s!==t)s.classList.remove('open')});var open=t.classList.toggle('open');b.setAttribute('aria-expanded',open?'true':'false');if(open&&window.__sidenotePlace)window.__sidenotePlace(t)})(this)">
+    <span class="sidenote-icon sidenote-icon-open" aria-hidden="true">+</span>
+    <span class="sidenote-icon sidenote-icon-close" aria-hidden="true">&#8722;</span>
+  </button>
+  <span class="sidenote-bubble" role="note">{{ $text | markdownify }}</span>
+</span>
+<script>
+  if (!window.__sidenoteInit) {
+    window.__sidenoteInit = true;
+    window.__sidenotePlace = function (s) {
+      var b = s.querySelector(".sidenote-bubble");
+      if (!b) return;
+      var margin = 8; // px kept free on each side
+      b.style.setProperty("--sn-shift", "0px"); // reset, then measure
+      s.classList.remove("below");
+      var r = b.getBoundingClientRect();
+      var vw = document.documentElement.clientWidth;
+      var shift = 0;
+      if (r.left < margin) shift = margin - r.left;
+      else if (r.right > vw - margin) shift = vw - margin - r.right;
+      b.style.setProperty("--sn-shift", shift + "px");
+      // Not enough room above? Flip below.
+      if (r.top < margin) s.classList.add("below");
+    };
+    document.addEventListener("click", function (e) {
+      if (!e.target.closest(".sidenote")) {
+        document.querySelectorAll(".sidenote.open").forEach(function (s) {
+          s.classList.remove("open");
+          s.querySelector(".sidenote-btn").setAttribute("aria-expanded", "false");
+        });
+      }
+    });
+    document.addEventListener("keydown", function (e) {
+      if (e.key === "Escape") {
+        document.querySelectorAll(".sidenote.open").forEach(function (s) {
+          s.classList.remove("open");
+          s.querySelector(".sidenote-btn").setAttribute("aria-expanded", "false");
+        });
+      }
+    });
+    window.addEventListener("resize", function () {
+      document.querySelectorAll(".sidenote.open").forEach(window.__sidenotePlace);
+    });
+  }
+</script>
