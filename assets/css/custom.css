@@ -56,9 +56,12 @@
   cursor: pointer;
   user-select: none;
   line-height: 1;
-  color: rgb(var(--color-neutral));
+  color: rgb(var(--color-neutral-100));
   background-color: var(--sn-color, rgb(var(--color-primary-600)));
   transition: transform 0.15s ease;
+}
+.dark .sidenote-btn {
+  color: rgb(var(--color-neutral-900));
 }
 .sidenote-icon {
   font-size: 0.62em;
